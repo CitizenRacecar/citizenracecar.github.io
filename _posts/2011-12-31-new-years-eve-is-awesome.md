@@ -43,7 +43,7 @@ client: seedco
   
   <div class="col-md-8">
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide">
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -81,3 +81,7 @@ client: seedco
   </div>
 </div>
 
+<script type="text/javascript">
+  $('.carousel').carousel();
+  console.log('does this work?')
+</script>
