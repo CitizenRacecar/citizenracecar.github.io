@@ -9,36 +9,36 @@ client: seedco
 
 <div class="row">
   <div class="col-md-4">
-    Full-service A/V support for a fundraising luncheon and panel discussion. Services including: live streaming to a password-protected web platform of a two-camera video shoot of the event, parallel closed-circuit broadcast to the live audience, live sound and lighting, still photography, video post-production for the web.
+    <p>Full-service A/V support for a fundraising luncheon and panel discussion. Services including: live streaming to a password-protected web platform of a two-camera video shoot of the event, parallel closed-circuit broadcast to the live audience, live sound and lighting, still photography, video post-production for the web.</p>
 
-    ## Team
+    <h2>Team</h2>
 
-    ### PRODUCTION LEAD, VIDEO POST-PRODUCTION:
-    David Hoffman
+    <h3>PRODUCTION LEAD, VIDEO POST-PRODUCTION:</h3>
+    <p>David Hoffman</p>
 
-    ### STILL PHOTOGRAPHY: 
-    Christian Pollock
+    <h3>STILL PHOTOGRAPHY:</h3>
+    <p>Christian Pollock</p>
 
-    ### WEB STREAMING: 
-    Livestream
+    <h3>WEB STREAMING:</h3>
+    <p>Livestream</p>
 
-    ### AV PERSONNEL AND EQUIPMENT:
-    One Dream Sound
+    <h3>AV PERSONNEL AND EQUIPMENT:</h3>
+    <p>One Dream Sound</p>
 
-    ### LIVE SOUND/ AV LEAD:
-    Dave Ferdinand
+    <h3>LIVE SOUND/ AV LEAD:</h3>
+    <p>Dave Ferdinand</p>
 
-    ### TECHNICAL DIRECTOR:
-    Doyle Ephraim
+    <h3>TECHNICAL DIRECTOR:</h3>
+    <p>Doyle Ephraim</p>
 
-    ### DIRECTOR OF PHOTOGRAPHY:
-    Benjamin Richards
+    <h3>DIRECTOR OF PHOTOGRAPHY:</h3>
+    <p>Benjamin Richards</p>
 
-    ### CAMERA OPERATOR:
-    Nathaniel Butler
+    <h3>CAMERA OPERATOR:</h3>
+    <p>Nathaniel Butler</p>
 
-    ### LIGHTING DESIGNER:
-    Paul Jones    
+    <h3>LIGHTING DESIGNER:</h3>
+    <p>Paul Jones</p>
   </div>
   
   <div class="col-md-8">
