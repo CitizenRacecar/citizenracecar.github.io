@@ -3,10 +3,8 @@ excerpt_separator: <!--more-->
 tite: My test post
 ---
 
-Excerpt
+Excerpt text
 
 <!--more-->
 
-Out-of-excerpt
-
-* Here is a test Post *
+Here is a test post
