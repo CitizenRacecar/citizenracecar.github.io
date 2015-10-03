@@ -1,4 +1,5 @@
 ---
+layout: site
 excerpt_separator: <!--more-->
 tite: My test post
 ---
