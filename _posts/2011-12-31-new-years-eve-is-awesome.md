@@ -3,7 +3,7 @@ layout: site
 excerpt_separator: <!--more-->
 tite: My test post
 ---
-<a href="{{ post.permalink }}">
+<a href="{{ page.url }}" title="Seedco">
   <img src="{{ site.url }}/images/seedco.jpg">
 </a>
 <h2>Video production, live streaming, event a/v, photography</h2>
