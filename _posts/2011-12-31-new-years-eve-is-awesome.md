@@ -4,7 +4,8 @@ excerpt_separator: <!--more-->
 tite: My test post
 ---
 
-Excerpt text
+
+<p>Excerpt text</p>
 
 <!--more-->
 
