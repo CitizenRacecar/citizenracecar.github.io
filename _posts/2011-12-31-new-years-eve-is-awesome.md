@@ -4,7 +4,7 @@ excerpt_separator: <!--more-->
 tite: My test post
 ---
 
-<img src="{{ site.url }}/images/seedco.jpg">
+<!-- <img src="{{ site.url }}/images/seedco.jpg"> -->
 
 ## Video production, live streaming, event a/v, photography
 
