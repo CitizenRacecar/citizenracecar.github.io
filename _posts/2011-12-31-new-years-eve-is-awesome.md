@@ -10,8 +10,8 @@ tite: My test post
   </div>
 </div> -->
 <img src="{{ site.url }}/images/seedco.jpg">
-
-  ## video production, live streaming, event a/v, photography
+<h2>video production, live streaming, event a/v, photography</h2>
+  
   ### 2015 sprint forum
   #### Seedco
 
