@@ -1,3 +1,7 @@
 body {
   background: url('../images/work_bg.jpg');
 }
+
+body .container {
+  background-color: #fff;
+}
