@@ -75,8 +75,9 @@ client: seedco
       </a>
     </div>
 
-    <a class="embedly-card" href="https://vimeo.com/124331547">Seedco 2015 Spring Forum - Excerpts</a>
-    <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+    <div class="embed-wrapper">
+      <iframe src="https://player.vimeo.com/video/124331547" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
 
   </div>
 </div>
