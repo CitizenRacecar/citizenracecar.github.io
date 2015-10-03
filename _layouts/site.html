@@ -1,11 +1,9 @@
 {% include header.html %}
 <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
+    <!-- include header or nav -->
   <div class="container">
-    <!-- {% include header.html %} -->
     {{ content }}
-    <!-- <div class="push"></div> -->
   </div>
   {% include footer.html %}
-  <!-- {% include analytics.html %} -->
 </body>
 </html>
