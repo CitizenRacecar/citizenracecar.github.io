@@ -1,5 +1,6 @@
 body {
   background: url('../images/work_bg.jpg');
+  background-size: cover;
 }
 
 body .container {
