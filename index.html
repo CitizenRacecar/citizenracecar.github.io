@@ -6,8 +6,12 @@ body_class: overview
 <div class="row">
   {% for post in site.posts %}
     <div class="col-md-4 excerpt">
-      {{ post.services }}
-      <!-- {{ post.excerpt }}         -->
+      <a href="{{ post.url }}" title="{{ post.client }}">
+        <img src="{{ site.url }}{{ post.thumbnail }}">
+      </a>
+      <h2>{{ post.services }}</h2>
+      <h3>{{ post.title }}</h3>
+      <h4>{{ post.client }}</h4>
     </div>
   {% endfor %}  
 </div>

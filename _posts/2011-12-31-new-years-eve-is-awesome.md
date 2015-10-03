@@ -2,7 +2,7 @@
 layout: site
 excerpt_separator: <!--more-->
 tite: 2015 sprint forum
-img: /images/seedco.jpg
+thumbnail: /images/seedco.jpg
 services: video production, live streaming, event a/v, photography
 client: seedco
 ---
