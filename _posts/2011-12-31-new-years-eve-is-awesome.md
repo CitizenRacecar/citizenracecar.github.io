@@ -4,20 +4,16 @@ excerpt_separator: <!--more-->
 tite: My test post
 ---
 
-<div class="">
-  <div class="redhover">
-    <div class="redhoverunskew">
-      <img src="img/work/CategoryVideo.svg">
-    </div>
+<!-- <div class="redhover">
+  <div class="redhoverunskew">
+    <img src="img/work/CategoryVideo.svg">
   </div>
-  <img src="img/work/thumb13.jpg">
-  <div class="category">VIDEO PRODUCTION, LIVE STREAMING, EVENT A/V, PHOTOGRAPHY</div>
-  <div class="projectname">2015 Spring Forum</div>
-  <div class="client">Seedco</div>
-  <p>Excerpt text</p>
-</div>
+</div> -->
+<img src="{{ site.url }}/images/seedco.jpg">
 
-
+## video production, live streaming, event a/v, photography
+### 2015 sprint forum
+#### Seedco
 
 <!--more-->
 
