@@ -54,18 +54,14 @@ client: seedco
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img src="..." alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
+          <img src="{{site.url}}/images/seedco/camera-operator.jpg" alt="...">
         </div>
         <div class="item">
-          <img src="..." alt="...">
-          <div class="carousel-caption">
-            ...
-          </div>
+          <img src="{{site.url}}/images/seedco/children-photo.jpg" alt="...">
         </div>
-        ...
+        <div class="item">
+          <img src="{{site.url}}/images/seedco/speaking.jpg" alt="...">
+        </div>
       </div>
 
       <!-- Controls -->
@@ -81,9 +77,6 @@ client: seedco
 
     <a class="embedly-card" href="https://vimeo.com/124331547">Seedco 2015 Spring Forum - Excerpts</a>
     <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-
-<!--     <iframe src="https://player.vimeo.com/video/124331547" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-
 
   </div>
 </div>
