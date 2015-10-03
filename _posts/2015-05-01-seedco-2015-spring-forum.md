@@ -1,6 +1,6 @@
 ---
 layout: site
-tite: 2015 sprint forum
+title: 2015 sprint forum
 thumbnail: /images/seedco.jpg
 services: video production, live streaming, event a/v, photography
 client: seedco
