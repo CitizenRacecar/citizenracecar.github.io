@@ -8,12 +8,16 @@ client: seedco
 
 <div class="row">
   <div class="col-md-12">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.client }}{{ page.title }}</h1>
   </div>
 
   <div class="col-md-4">
     <section>
+      <h4>{{ page.services }}</h4>
+
       <p>Full-service A/V support for a fundraising luncheon and panel discussion. Services including: live streaming to a password-protected web platform of a two-camera video shoot of the event, parallel closed-circuit broadcast to the live audience, live sound and lighting, still photography, video post-production for the web.</p>
+
+      <hr>
 
       <h2>Team</h2>
 
@@ -81,7 +85,9 @@ client: seedco
           <span class="sr-only">Next</span>
         </a>
       </div>
+    </section>
 
+    <section>
       <div class="embed-wrapper">
         <iframe src="https://player.vimeo.com/video/124331547" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
