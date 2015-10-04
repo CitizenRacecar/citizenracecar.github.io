@@ -1,11 +1,17 @@
 {% include header.html %}
-<body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
-  {% include nav.html %}
-  <div class="container">
-    <img src="{{ site.url }}/images/logo.svg" class="pull-left" />
-    <p class="lead">We tell stories</p>
-    {{ content }}
-    {% include footer.html %}
-  </div>
-</body>
+  <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %}>
+    
+    {% include nav.html %}
+    
+    <div class="container">
+      <img src="{{ site.url }}/images/logo.svg" class="pull-left" />
+      <p class="lead">We tell stories</p>
+      
+      <div id="content">
+        {{ content }}
+        {% include footer.html %}      
+      </div>
+    </div>
+
+  </body>
 </html>

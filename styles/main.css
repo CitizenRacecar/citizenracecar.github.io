@@ -4,7 +4,7 @@ body {
   padding-top: 70px;
 }
 
-body .container {
+body #content {
   background-color: #fff;
 }
 
