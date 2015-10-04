@@ -2,6 +2,7 @@ body {
   background: url('../images/work_bg.jpg');
   background-size: cover;
   padding-top: 70px;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 body #content {
