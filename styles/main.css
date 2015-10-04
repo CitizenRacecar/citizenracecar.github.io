@@ -31,4 +31,6 @@ body .container {
   height: 100%;
 }
 
-
+section {
+  margin: 0 15px;
+}
