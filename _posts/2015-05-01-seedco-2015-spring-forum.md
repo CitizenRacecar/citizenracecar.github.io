@@ -8,7 +8,7 @@ client: seedco
 
 <div class="row">
   <div class="col-md-12">
-    <h1>{{ page.client }}{{ page.title }}</h1>
+    <h1 class="title">{{ page.client }} | {{ page.title }}</h1>
   </div>
 
   <div class="col-md-4">
