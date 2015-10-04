@@ -6,7 +6,7 @@ body_class: overview
 <div class="row">
   <div class="col-md-12">
     <section>
-      <h2>Creating the vehicles for communicating big ideas</h2>
+      <h1 class="mission">Creating the vehicles for communicating big ideas</h1>
 <!--       <h3>communications and marketing strategy· web and interactive design · video production · podcasting · strategic messaging · branding · copywriting · multimedia for events</h3> -->
     </section>
 
@@ -25,15 +25,15 @@ body_class: overview
   </div>
   <div class="col-md-6">
     <section>
-      <ul>
-        <li>communications and marketing strategy</li>
-        <li>web and interactive design </li>
-        <li>video production</li>
-        <li>podcasting</li>
-        <li>strategic messaging</li>
-        <li>branding</li>
-        <li>copywriting</li>
-        <li>multimedia for events</li>
+      <ul class="unstyled sub-header">
+        <li><h3><i class="fa fa-check"></i> communications and marketing strategy</li></h3>
+        <li><h3><i class="fa fa-check"></i> web and interactive design </li></h3>
+        <li><h3><i class="fa fa-check"></i> video production</li></h3>
+        <li><h3><i class="fa fa-check"></i> podcasting</li></h3>
+        <li><h3><i class="fa fa-check"></i> strategic messaging</li></h3>
+        <li><h3><i class="fa fa-check"></i> branding</li></h3>
+        <li><h3><i class="fa fa-check"></i> copywriting</li></h3>
+        <li><h3><i class="fa fa-check"></i> multimedia for events</li></h3>
       </ul>      
     </section>
   </div>
@@ -46,13 +46,17 @@ body_class: overview
     <h3>Our work:</h3>
   </div>
   {% for post in site.posts %}
-    <div class="col-md-4 excerpt">
-      <a href="{{ post.url }}" title="{{ post.client }}">
-        <img src="{{ site.url }}{{ post.thumbnail }}">
-      </a>
-      <h2>{{ post.services }}</h2>
-      <h3>{{ post.title }}</h3>
-      <h4>{{ post.client }}</h4>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <a href="{{ post.url }}" title="{{ post.client }}">
+            <img class="img-responsive" src="{{ site.url }}{{ post.thumbnail }}">
+          </a>
+          <h2>{{ post.services }}</h2>
+          <h3>{{ post.title }}</h3>
+          <h4>{{ post.client }}</h4>
+        </div>
+      </div>
     </div>
   {% endfor %}  
 </div>
