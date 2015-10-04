@@ -6,13 +6,13 @@ body {
 
 body #content {
   background-color: #fff;
+  clear: both;
 }
 
 /* Nav Logo */
 nav img { max-height: 51px; }
 nav .navbar-brand { 
-  margin: 0;
-  padding: 0;
+  padding-top: 0;
 }
 
 /* Carousel Override */
