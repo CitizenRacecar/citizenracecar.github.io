@@ -10,11 +10,11 @@ body #content {
   padding: 15px;
 }
 
-/* Nav Logo */
+/* Navigation */
+.navbar-default { background-color: #E6E6E6; }
+
 nav img { max-height: 51px; }
-nav .navbar-brand { 
-  padding-top: 0;
-}
+nav .navbar-brand { padding-top: 0; }
 
 /* Carousel Override */
 .carousel-inner > .item > img, 
