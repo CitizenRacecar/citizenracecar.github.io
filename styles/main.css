@@ -28,11 +28,14 @@ section { margin: 15px 0; }
 
 
 /* Typography */
-p > a,
-.text-primary { color: #EE3124; }
+a:hover { text-decoration: none; }
+a, a:hover { color: #000; }
+p > a, .text-primary { color: #EE3124; }
 
 h1.mission { font-size: 44px; }
 
+
+/* Homepage */
 .checklist {
   font-size: 23px;
   color: #979797;

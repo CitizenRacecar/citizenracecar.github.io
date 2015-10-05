@@ -4,7 +4,7 @@ title: 2015 sprint forum
 thumbnail: /images/seedco/crowd.jpg
 services: video production, live streaming, event a/v, photography
 client: seedco
-description: Full-service A/V support for a fundraising luncheon and panel discussion.
+description: Full-service A/V support for Seedco fundraising luncheon and panel discussion.
 ---
 
 <div class="row">
