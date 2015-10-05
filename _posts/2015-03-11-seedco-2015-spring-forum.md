@@ -4,6 +4,7 @@ title: 2015 sprint forum
 thumbnail: /images/seedco/crowd.jpg
 services: video production, live streaming, event a/v, photography
 client: seedco
+page_description: Gooday mate, I'm yet another page description
 ---
 
 <div class="row">
