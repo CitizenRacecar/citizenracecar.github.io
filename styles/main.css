@@ -12,20 +12,24 @@ body #content {
   padding: 15px;
 }
 
+
 /* Layout */
-section {
-  margin: 15px 0;
-} 
+section { margin: 15px 0; }
+
+
+/* Images */
+.img-responsive { width: 100%; }
 
 
 /* Navigation */
 .navbar-default { background-color: #E6E6E6; }
-
-nav img { max-height: 51px; }
-nav .navbar-brand { padding-top: 0; }
+.navbar-default img { max-height: 51px; }
+.navbar-default .navbar-brand { padding-top: 0; }
 
 
 /* Typography */
+a { color: #EE3124; }
+
 h1.mission {
   font-size: 44px;
   color: #EE3124;
@@ -39,9 +43,7 @@ h1.mission {
 
 /* Carousel Override */
 .carousel-inner > .item > img, 
-.carousel-inner > .item > a >img {
-  width: 100%;
-}
+.carousel-inner > .item > a >img { width: 100%; }
 
 
 /* Embeds */
