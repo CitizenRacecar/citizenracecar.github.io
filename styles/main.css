@@ -28,12 +28,10 @@ section { margin: 15px 0; }
 
 
 /* Typography */
-a { color: #EE3124; }
+p > a,
+.text-primary { color: #EE3124; }
 
-h1.mission {
-  font-size: 44px;
-  color: #EE3124;
-}
+h1.mission { font-size: 44px; }
 
 .checklist {
   font-size: 23px;
