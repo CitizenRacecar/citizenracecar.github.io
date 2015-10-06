@@ -6,9 +6,7 @@ page_description: Creating the vehicles for communicating big ideas and marketin
 
 <div class="row">
   <div class="col-md-12">
-    <section>
       <h1 class="mission text-primary">Creating the vehicles for communicating big ideas</h1>
-    </section>
   </div>
 
   <div class="col-md-6">
@@ -22,7 +20,7 @@ page_description: Creating the vehicles for communicating big ideas and marketin
 
   <div class="col-md-6">
     <section>
-      <h3>What we do:</h3>
+      <h3 class="text-top">What we do:</h3>
       <ul class="list-unstyled checklist">
         <li><i class="fa fa-check"></i> communications and marketing strategy</li>
         <li><i class="fa fa-check"></i> web and interactive design </li>
@@ -42,13 +40,15 @@ page_description: Creating the vehicles for communicating big ideas and marketin
     <h3>Our work:</h3>
   </div>
   {% for post in site.posts %}
-    <div class="col-md-3">
-      <a href="{{ post.url }}" title="{{ post.client }} {{post.title}}">
-        <img class="img-responsive" src="{{ site.url }}{{ post.thumbnail }}">
-        <h4 class="text-uppercase text-primary">{{ post.services }}</h3>
-        <h4 class="text-capitalize"><strong>{{ post.title }}</strong></h3>
-        <h4 class="text-capitalize">{{ post.client }}</h3>
-      </a>
+    <div class="col-md-3 post">
+      <section>
+        <a href="{{ post.url }}" title="{{ post.client }} {{post.title}}">
+          <img class="img-responsive" src="{{ site.url }}{{ post.thumbnail }}">
+          <h4 class="text-uppercase text-primary post-services">{{ post.services }}</h3>
+          <h4 class="text-capitalize"><strong>{{ post.title }}</strong></h3>
+          <h4 class="text-capitalize">{{ post.client }}</h3>
+        </a>      
+      </section>
     </div>
   {% endfor %}  
 </div>

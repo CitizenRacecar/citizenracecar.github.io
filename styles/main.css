@@ -10,11 +10,13 @@ body #content {
   background-color: #fff;
   clear: both;
   padding: 15px;
+  color: #515151;
 }
 
 
 /* Layout */
-section { margin: 15px 0; }
+section { padding: 15px 0; }
+.text-top { margin-top: 0; }
 
 
 /* Images */
@@ -29,18 +31,82 @@ section { margin: 15px 0; }
 
 /* Typography */
 a:hover { text-decoration: none; }
-a, a:hover { color: #000; }
+a, a:hover { color: #515151; }
 p > a, .text-primary { color: #EE3124; }
+.text-secondary { color: #fff ;}
 
-h1.mission { font-size: 44px; }
+h1.mission { 
+  font-size: 50px; 
+  margin-bottom: 20px;
+}
 
+#copywrite { 
+  margin-left: 15px;
+}
 
 /* Homepage */
 .checklist {
   font-size: 23px;
   color: #979797;
 }
-  
+
+.post-services {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+ 
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  h1.mission { font-size: 43px; }
+}
+
+@media (max-width: 991px) {
+  h1.mission { font-size: 65px; }
+  .post h4 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 736px) {
+  h1.mission { font-size: 60px; }
+}
+
+@media (max-width: 684px) {
+  h1.mission { font-size: 55px; }
+}
+
+@media (max-width: 632px) {
+  h1.mission { font-size: 50px; }
+}
+
+@media (max-width: 580px){
+  h1.mission { font-size: 45px; }
+}
+
+@media (max-width: 529px){
+  h1.mission { font-size: 40px; }
+  .checklist { 
+    font-size: 19px;
+    padding-left: 40px;
+    list-style: inherit;
+  }
+  .checklist i { display: none; }
+}
+
+@media (max-width: 476px){
+  h1.mission { font-size: 35px; }
+}
+
+@media (max-width: 424px){
+  h1.mission { font-size: 30px; }
+}
+
+@media (max-width: 375px){
+  h1.mission { font-size: 25px; }
+}
+
 
 /* Carousel Override */
 .carousel-inner > .item > img, 

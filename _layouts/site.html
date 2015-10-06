@@ -11,7 +11,16 @@
         {{ content }}
         {% include footer.html %}      
       </div>
+
+      <p id="copywrite" class="text-secondary"></p>
     </div>
+
+    <script>
+      var date = new Date();
+      $(function(){
+        $('#copywrite').text('©'+ date.getFullYear() +' CitizenRacecar. All rights reserved.');
+      });
+    </script>
 
   </body>
 </html>
